@@ -1,0 +1,44 @@
+div.badge1{
+    width: 1350px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  div.badge1>div.badge2{
+    width: 150px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 20px;
+  }
+  div.badge1>div.badge2>a{
+    text-decoration: none;
+    color: black;
+  }
+  div.badge1>div.badge2>a>img{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+  }
+  div.badge1>div.badge2>a>p{
+    text-align: center;
+    padding-top: 5px;
+  }
+  div.badge1>div.badge2>a>div.circle{
+    width: 55px;
+    height: 55px;
+    background-color: #F0F0F1;
+    margin-right: 40px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 50px;
+    font-weight: 900;
+    color: #A1A3A8;
+  }
+  div.badge1>div.badge2>a>div.circle>img{
+    width: var(--WidthIcon);
+    height: var(--HeightIcon);
+    filter: var(--IconFilter);
+  }

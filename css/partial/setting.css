@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: shila;
+  }
+  div.wrapper{
+    width: 100%;
+  }
+  :root{
+    --WidthIcon:25px;
+    --HeightIcon:25px;
+    --WidthIcon2:30px;
+    --HeightIcon2:30px;
+    --IconFilter:invert(71%) sepia(11%) saturate(102%) hue-rotate(184deg) brightness(92%) contrast(86%);
+    --BoxBorder:2px solid #E0DEE0;
+    --ColorFill:#81858B;
+    --IconFill:invert(67%) sepia(45%) saturate(3755%) hue-rotate(141deg) brightness(99%) contrast(80%);
+    --View:#19BFD3;
+    --BorderBottom:3px solid red;
+    --BorderRadius:20px;
+  }
+  @font-face{
+    font-family: shila;
+    src: url(./fonts/fa/Yekan.ttf);
+    src: url(./fonts/fa/Yekan.eot);
+    src: url(./fonts/fa/Yekan.woff);
+    src: url(./fonts/fa/Yekan.woff2);
+  }

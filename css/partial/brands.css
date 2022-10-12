@@ -1,0 +1,45 @@
+div.brands{
+    width: 1330px;
+    height: 240px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: var(--BorderRadius);
+    border: var(--BoxBorder);
+    background-color: transparent;
+  }
+div.brands>div.title{
+    width: inherit;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+}
+div.brands>div.title>div.text{
+    width: 200px;
+    height: inherit;
+    background-color: transparent;
+    font-size: 28px;
+}
+div.brands>div.title>div.icon{
+    width: 50px;
+    height: inherit;
+    background-color: transparent;
+    margin-right: 500px;
+}
+div.brands>div.title>div.icon>img{
+    width: var(--WidthIcon2);
+    height: var(--HeightIcon2);
+    margin-top: 10px;
+    margin-right: 15px;
+    filter: invert(67%) sepia(96%) saturate(456%) hue-rotate(357deg) brightness(96%) contrast(104%);
+}
+div.brands>div.slider2{
+    width: 1300;
+    height: calc(230px - 80px);
+    background-color: #bdbfc3;
+    margin-top: 30px;
+}
+div.swiper-slide>div.imagen{
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+}

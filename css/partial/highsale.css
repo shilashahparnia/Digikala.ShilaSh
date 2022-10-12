@@ -1,0 +1,82 @@
+div.highsale {
+    width: 1330px;
+    height: 430px;
+    margin: 0 auto;
+    border: var(--BoxBorder);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  div.highsale > div.title {
+    width: inherit;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    margin-bottom: 40px;
+  }
+  div.highsale > div.title > div.text {
+    width: 200px;
+    height: inherit;
+    background-color: transparent;
+    font-size: 28px;
+  }
+  div.highsale > div.title > div.icon {
+    width: 50px;
+    height: inherit;
+    background-color: transparent;
+    margin-right: 500px;
+  }
+  div.highsale > div.title > div.icon > img {
+    width: var(--WidthIcon2);
+    height: var(--HeightIcon2);
+    margin-top: 10px;
+    margin-right: 15px;
+    filter: invert(67%) sepia(96%) saturate(456%) hue-rotate(357deg)
+      brightness(96%) contrast(104%);
+  }
+  div.highsale>div.sliderBox{
+      width: inherit;
+      height: 340px;
+      background-color: transparent;
+      padding: 10px;
+      display: flex;
+  }
+  div.swiper-slide{
+  }
+  div.swiper-slide>div.row1,div.swiper-slide>div.row2{
+      width: calc(1280px / 4);
+      height: calc(300px /3);
+      background-color: transparent;
+      margin-bottom: 10px;
+      display: flex;
+  }
+  div.swiper-slide>div.row2{
+      border-top: var(--BoxBorder);
+      border-bottom: var(--BoxBorder);
+  }
+  div.swiper-slide>div.row1>div.imagen,div.swiper-slide>div.row2>div.imagen{
+      width: 90px;
+      height: inherit;
+      background-color: transparent;
+      display: flex;
+  }
+  div.swiper-slide>div.row1>div.imagen,div.swiper-slide>div.row2>div.imagen>a>img{
+      width: 90px;
+      height: 90px;
+      margin-top: 5px;
+      margin-left: 10px;
+  }
+  div.swiper-slide>div.row1>div.description,div.swiper-slide>div.row2>div.description{
+      width: 220px;
+      height: inherit;
+      background-color: transparent;
+      display: flex;
+  }
+  div.swiper-slide>div.row1>div.description>a,div.swiper-slide>div.row2>div.description>a{
+      text-decoration: none;
+      color: black;
+      text-align: right;
+      margin-top: 20px;
+  
+  }
+  

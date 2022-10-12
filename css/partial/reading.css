@@ -1,0 +1,45 @@
+div.reading {
+    width: 1330px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: transparent;
+    margin-bottom: 30px;
+  }
+  div.reading > div.title {
+    width: inherit;
+    height: 40px;
+    background-color: transparent;
+  }
+  div.reading > div.news {
+    width: 314px;
+    height: 290px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 15px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    border: var(--BoxBorder);
+    margin-top: 10px;
+  }
+  div.reading > div.news > div.imagen {
+    width: inherit;
+    height: 210px;
+    background-color: transparent;
+  }
+  div.reading > div.news > div.text {
+    width: inherit;
+    height: 60px;
+    background-color: transparent;
+    margin-top: 10px;
+  }
+  div.reading > div.news > div.imagen > a > img {
+    width: 314px;
+    height: 210px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 2px;
+  }
+  div.reading > div.news > div.text > p {
+    padding-right: 15px;
+  }
+  

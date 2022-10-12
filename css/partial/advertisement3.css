@@ -1,0 +1,13 @@
+div.advertisement3{
+    width: 1330px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+  div.advertisement3>img{
+    width: inherit;
+    height: 180px;
+    border-radius: 20px;
+  }

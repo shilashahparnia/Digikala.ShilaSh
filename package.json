@@ -1,0 +1,15 @@
+{
+  "name": "digikala-project-web1",
+  "version": "1.5.0",
+  "description": "designing digikala web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shila shahparnia",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "swiper": "^8.4.3"
+  }
+}

@@ -1,0 +1,35 @@
+/*
+Version: 1.3.0
+author: Shila Shahparnia
+*/
+@import "partial/setting.css";
+@import "partial/header.css";
+@import "partial/menu.css";
+@import "partial/badges.css";
+@import "partial/supermarket.css";
+@import "partial/slider.css";
+@import "partial/suprise.css";
+@import "partial/advertisement.css";
+@import "partial/ProsType.css";
+@import "partial/advertisement2.css";
+@import "partial/offer.css";
+@import "partial/brands.css";
+@import "partial/Pros.css";
+@import "partial/digiplus.css";
+@import "partial/digiclub.css";
+@import "partial/highsale.css";
+@import "partial/advertisement3.css";
+@import "partial/selectedPros.css";
+@import "partial/reading.css";
+@import "partial/info.css";
+@import "partial/sending.css";
+@import "partial/footer.css";
+@import "partial/download.css";
+@import "partial/info2.css";
+@import "partial/copyRight.css";
+@import "partial/footerbrands.css";
+
+div>hr{
+  margin: 20px 0;
+  color: var(--ColorFill);
+}

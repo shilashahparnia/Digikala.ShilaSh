@@ -1,0 +1,20 @@
+div.advertisement{
+    width: 1300px;
+    height: 250px;
+    margin:0 auto;
+    background-color: transparent;
+    border-radius: 20px;
+  }
+  div.advertisement>div{
+    width: 310px;
+    height: inherit;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: transparent;
+    display: inline-block;
+  }
+  div.advertisement>div>img{
+    width: 320px;
+    height: 250px;
+    border-radius: 20px;
+  }
