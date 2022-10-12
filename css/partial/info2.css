@@ -1,17 +1,17 @@
-div.info2{
-    width: 1450px;
-    height: 220px;
-    background-color: transparent;
-    margin-right: 10px;
-    margin-bottom: 30px;
-    margin-top: 25px;
-    display: flex;
-  }
-  div.info2>div.about{
-    width: 700px;
-    background-color: transparent;
-  }
-  div.info2>div.about>p{
+div.info2 {
+  width: 1450px;
+  height: 220px;
+  background-color: aqua;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  display: flex;
+}
+div.info2 > div.about {
+  width: 700px;
+  background-color: burlywood;
+}
+div.info2 > div.about > p {
   text-align: right;
   padding-top: 15px;
   padding-right: 10px;
@@ -19,32 +19,38 @@ div.info2{
   font-size: 14px;
   text-align: justify;
   margin-bottom: 30px;
-  }
-  div.info2>div.about>h3{
+}
+div.info2 > div.about > h3 {
   padding-top: 15px;
   padding-right: 10px;
-  }
-  div.info2>div.about>span{
-    padding-right: 10px;
-    color: #02CEFF;
-  }
-  div.info2>div.license{
-    width: 400px;
-    background-color: transparent;
-    margin-right: 450px;
-    display: flex;
-  }
-  div.info2>div.license>div.logo5{
-    width: 110px;
-    height: 110px;
-    border-radius: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
-    border: 2px solid #D3D3D3;
-  }
-  div.info2>div.license>div.logo5>img{
-    width: 95px;
-    height: 90px;
-    padding-top: 20px;
-    padding-right: 10px;
-  }
+}
+div.info2 > div.about > div.view {
+  width: 150px;
+  height: 40px;
+  background-color: darkgrey;
+  display: flex;
+}
+div.info2 > div.about > div.view > a > {
+  text-decoration: none;
+  display: flex;
+}
+div.info2 > div.license {
+  width: 400px;
+  background-color: transparent;
+  margin-right: 450px;
+  display: flex;
+}
+div.info2 > div.license > div.logo5 {
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border: var(--BoxBorder);
+}
+div.info2 > div.license > div.logo5 > a > img {
+  width: 95px;
+  height: 90px;
+  padding-top: 20px;
+  padding-right: 10px;
+}

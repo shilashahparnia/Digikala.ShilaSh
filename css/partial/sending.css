@@ -1,10 +1,8 @@
 div.sending{
     width: 1300px;
     height: 100px;
-    margin-right: 100px;
-    border-radius: 20px;
+    margin: 0 auto;
     margin-bottom: 30px;
-    display: inline-block;
     background-color: transparent;
   }
   div.sending>div.options{
@@ -13,12 +11,16 @@ div.sending{
     display: inline-block;
     margin-right: 40px;
     margin-left: 40px;
-    margin-top: 15px;
-    border-radius: 20px;
+    border-radius: var(--BorderRadius);
+    background-color: transparent;
   }
-  div.sending>div.options>img{
-    padding-right: 50px;
+  div.sending>div.options>a{
+    text-decoration: none;
+    color: black;
   }
-  div.sending>div.options>p{
+  div.sending>div.options>a>img{
+    padding-right: 60px;
+  }
+  div.sending>div.options>a>p{
     text-align: center;
   }

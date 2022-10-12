@@ -1,70 +1,87 @@
-div.footer{
-    width: 1450px;
-    height: 300px;
-    background-color: transparent;
-    margin-right: 10px;
-    margin-bottom: 50px;
-    text-align: center;
-    display: flex;
-  }
-  div.footer>div.column{
-    width: 400px;
-    height: 400px;
-    background-color: transparent;
-    margin-right: 5px;
-  }
-  div.footer>div.column>p{
-    text-align: right;
-    padding-top: 10px;
-    padding-right: 10px;
-    margin-bottom: 15px;
-    font-size: 20px;
-    font-weight: 900;
-  }
-  div.footer>div.column>a{
-    display: block;
-    margin-bottom: 20px;
-    text-decoration: none;
-    color: #81858B;
-    text-align: right;
-    padding-right: 10px;
-    font-size: 18px;
-  }
-  div.footer>div.column>div.icons{
-    width: 300px;
-    height: 60px;
-    background-color: transparent;
-    margin-right: 10px;
-  }
-  div.footer>div.column>div.correo{
-    height: 60px;
-    background-color: transparent;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding-top: 20px;
-    text-align: right;
-    font-weight: 900;
-    font-size: 20px;
-  }
-  div.footer>div.column>div.email,div.footer>div.column>div.register2{
-    width: 270px;
-    height: 50px;
-    background-color: #F0F0F1;
-    margin-top: 10px;
-    border-radius: 10px;
-    color: #A1A3A8;
-    text-align: right;
-    padding-top: 18px;
-    padding-right: 8px;
-    display: inline-block;
-  }
-  div.footer>div.column>div.register2{
-    width: 60px;
-    text-align: center;
-    margin-right: 5px;
-    background-color: #E0E0E2;
-    color: white;
-  }
-  div.footer>div.column>div.email{
-    padding-right: 20px;
-  }
+div.footer {
+  width: 1450px;
+  height: 330px;
+  background-color: transparent;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: flex;
+}
+div.footer > div.column {
+  width: 400px;
+  height: inherit;
+  background-color: transparent;
+  margin-right: 5px;
+}
+div.footer > div.column > p {
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 900;
+}
+div.footer > div.column > a {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: var(--ColorFill);
+  text-align: right;
+  padding-right: 10px;
+  font-size: 18px;
+}
+div.footer > div.column > div.icons {
+  width: 300px;
+  height: 60px;
+  background-color: transparent;
+  margin-right: 10px;
+}
+div.footer > div.column > div.icons > a > img {
+  width: var(--WSocialMedia);
+  height: var(--HSocialMedia);
+  filter: var(--IconFilter);
+  margin-left: 20px;
+}
+div.footer > div.column > div.correo {
+  height: 60px;
+  background-color: transparent;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+div.footer > div.column > div.correo > p {
+  text-align: right;
+  font-weight: 900;
+  font-size: 20px;
+  padding-top: 15px;
+}
+div.footer > div.column > div.correo > div.email {
+  width: 270px;
+  height: 50px;
+  background-color: #f0f0f1;
+  border-radius: 10px;
+}
+div.footer > div.column > div.correo > div.email > form.fill1 {
+  width: 250px;
+  height: inherit;
+  background-color: transparent;
+  margin-right: 10px;
+}
+div.footer > div.column > div.correo > div.email > form.fill1 > input.write1 {
+  width: inherit;
+  height: inherit;
+  background-color: #f0f0f1;
+  outline-style: none;
+  border: none;
+  color: #a1a3a8;
+  font-size: 18px;
+}
+div.footer > div.column > div.correo > div.register2 {
+  width: 60px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #f0f0f1;
+  color: #a1a3a8;
+  padding-top: 15px;
+}

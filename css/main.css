@@ -28,8 +28,3 @@ author: Shila Shahparnia
 @import "partial/info2.css";
 @import "partial/copyRight.css";
 @import "partial/footerbrands.css";
-
-div>hr{
-  margin: 20px 0;
-  color: var(--ColorFill);
-}

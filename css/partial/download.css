@@ -16,7 +16,7 @@ div.download{
   }
   div.download>div.logo4>img{
     width: 50px;
-    margin-top: 5px;
+    margin-top: 10px;
   }
   div.download>div.app{
     width: 220px;
@@ -30,7 +30,7 @@ div.download{
   div.download>div.app2{
     width: 145px;
   }
-  div.download>div.app2>img{
+  div.download>div.app2>a>img{
     padding-right: 5px;
     width: 142px;
     padding-top: 15px;
@@ -43,8 +43,10 @@ div.download{
     margin-top: 20px;
     margin-right: 20px;
     background-color: #EBEEEA;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 900;
     border-radius: 5px;
+  }
+  div.download>div.button>a>img{
+    width: var(--WSocialMedia);
+    height: var(--HSocialMedia);
+    margin-right: 5px;
   }

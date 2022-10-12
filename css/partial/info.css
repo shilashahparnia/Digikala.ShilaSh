@@ -37,10 +37,21 @@ div.info{
     height: 40px;
     margin-right: 1200px;
     border-radius: 10px;
-    border: 2px solid #D3D3D3;
+    border: var(--BoxBorder);
     margin-top: 10px;
+    display: flex;
   }
-  div.info>div.infologo>div.up>p{
-    text-align: center;
-    padding-top: 8px;
+  div.info>div.infologo>div.up>a{
+    text-decoration: none;
+    display: flex;
+    margin-top: 7px;
+    padding-right: 10px;
+    color: var(--ColorFill);
+  }
+  div.info>div.infologo>div.up>a>img{
+    width: var(--WidthIcon);
+    height: var(--WidthIcon);
+    margin-right: 10px;
+    filter: var(--IconFilter);
+    
   }
