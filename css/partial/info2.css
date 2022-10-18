@@ -1,7 +1,7 @@
 div.info2 {
   width: 1450px;
   height: 220px;
-  background-color: aqua;
+  background-color: transparent;
   margin-right: 10px;
   margin-bottom: 30px;
   margin-top: 25px;
@@ -9,7 +9,7 @@ div.info2 {
 }
 div.info2 > div.about {
   width: 700px;
-  background-color: burlywood;
+  background-color: transparent;
 }
 div.info2 > div.about > p {
   text-align: right;
@@ -27,12 +27,10 @@ div.info2 > div.about > h3 {
 div.info2 > div.about > div.view {
   width: 150px;
   height: 40px;
-  background-color: darkgrey;
-  display: flex;
+  background-color: transparent;
 }
 div.info2 > div.about > div.view > a > {
   text-decoration: none;
-  display: flex;
 }
 div.info2 > div.license {
   width: 400px;
