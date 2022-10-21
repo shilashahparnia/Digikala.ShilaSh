@@ -28,10 +28,6 @@ div.menu{
     background-color: transparent;
     position: relative;
     transition: 300ms;
-    -webkit-transition: 300ms;
-    -moz-transition: 300ms;
-    -ms-transition: 300ms;
-    -o-transition: 300ms;
 }
 div.menu>div.list>nav>ul>li:hover{
   border-bottom: var(--BorderBottom);
@@ -92,11 +88,13 @@ div.menu>div.list>nav>ul>li:hover{
   }
   div.menu>div.list>nav>ul>li>div.submenu{
     width: calc(100vw - 40px);
-    height: 600px;
-    background-color: #FFFFFF;
+    height: 630px;
+    background-color: #f5f3f3;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     position: absolute;
-    display: none;
-    z-index: 10;
+    display: block;
+    z-index: 2;
   }
   div.menu>div.list>nav>ul>li:hover>div.submenu{
     display: block;
@@ -128,10 +126,6 @@ div.menu>div.list>nav>ul>li:hover{
     padding-right: 20px;
     font-size: 18px;
     transition: 300ms;
-    -webkit-transition: 300ms;
-    -moz-transition: 300ms;
-    -ms-transition: 300ms;
-    -o-transition: 300ms;
 }
   div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>a>img{
     width: var(--WidthIcon2);
@@ -139,10 +133,6 @@ div.menu>div.list>nav>ul>li:hover{
     padding-top: 8px;
     margin-left: 5px;
     transition: 300ms;
-    -webkit-transition: 300ms;
-    -moz-transition: 300ms;
-    -ms-transition: 300ms;
-    -o-transition: 300ms;
 }
   div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>a:hover{
     background-color: #F7F7F8;
@@ -153,7 +143,7 @@ div.menu>div.list>nav>ul>li:hover{
 }
 div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left{
   width: 83%;
-  height: 600px;
+  height: 630px;
   position: absolute;
   top: 0;
   left: 0;
@@ -163,55 +153,65 @@ div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left{
 div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left{
   display: block;
 }
-div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column1,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column2,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column3,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column4,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column5{
-  width: calc(78% / 4);
-  height: inherit;
-  display: inline-block;
+div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.title{
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+}
+div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.title>a{
+  text-decoration: none;
+  display: block;
+  color: black;
+  line-height: 40px;
+  padding-right: 15px;
+}
+div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.title>a>span.fas,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content>div.column>a.title>span.fas{
+  margin-right: 8px;
+  font-size: 10px;
+}
+div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content{
+  width: 100%;
+  background-color: transparent;
+  height: calc(100% - 40px);
+  display: flex;
+}
+div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content>div.column{
+  width: calc(80% / 4);
+  height: 100%;
+  background-color: transparent;
   border-right: 1px solid #E0DEE0;
+  display: inline-block;
 }
-div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column1>a.title{
-  color: black;
-  display: block;
-}
-div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column1>a.bold,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column2>a.bold,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column3>a.bold{
+div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content>div.column>a.title{
   display: block;
   color: black;
-  text-align: none;
-  font-size: 18px;
+  text-decoration: none;
+  font-size: 16px;
   font-weight: bold;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  transition: 300ms;
-  -webkit-transition: 300ms;
-  -moz-transition: 300ms;
-  -ms-transition: 300ms;
-  -o-transition: 300ms;
+  padding-right: 15px;
+  transition: 300ms; 
 }
-div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column1>a.bold:hover,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column2>a.bold:hover,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column3>a.bold:hover{
+div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content>div.column>a.title:hover{
   color: var(--Hover);
 }
-div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column1>a,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column2>a,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column3>a,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column4>a{
+div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content>div.column>a>span.verticalLine{
+  color: var(--Hover);
+  padding-left: 8px;
+  font-size: 22px;
+  font-weight: bold;
+}
+div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content>div.column>a{
   display: block;
   text-decoration: none;
   color: var(--ColorFill);
-  margin-right: 20px;
-  margin-bottom: 15px;
-  transition: 300ms;
-  -webkit-transition: 300ms;
-  -moz-transition: 300ms;
-  -ms-transition: 300ms;
-  -o-transition: 300ms;
+  padding-right: 15px;
+  padding-top: 13px;
 }
-div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column1>a:hover,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column2>a:hover,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column3>a:hover,div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column4>a:hover{
+div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content>div.column>a:hover{
   color: var(--Hover);
 }
-div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.column5>img{
-  width: 250px;
-  height: 200px;
-  padding: 10px;
+div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content>div.column>a>img{
+  width: 13.7vw;
+  height: 25vh;
   border-radius: var(--BorderRadius);
-  -webkit-border-radius: var(--BorderRadius);
-  -moz-border-radius: var(--BorderRadius);
-  -ms-border-radius: var(--BorderRadius);
-  -o-border-radius: var(--BorderRadius);
 }
