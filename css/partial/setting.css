@@ -12,6 +12,8 @@
     --HeightIcon:25px;
     --WidthIcon2:30px;
     --HeightIcon2:30px;
+    --WIncredible:40px;
+    --HIncredible:40px;
     --WSocialMedia:50px;
     --HSocialMedia:50px;
     --IconFilter:invert(71%) sepia(11%) saturate(102%) hue-rotate(184deg) brightness(92%) contrast(86%);
@@ -22,6 +24,7 @@
     --BorderBottom:3px solid red;
     --BorderRadius:20px;
     --Hover:#EF394E;
+    --BG:#ef394e;
   }
   @font-face{
     font-family: shila;

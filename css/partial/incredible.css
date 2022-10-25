@@ -1,0 +1,46 @@
+div.incredible{
+    width: 100%;
+    height: 120px;
+    background-color: var(--BG);
+    text-align: center;
+    background-image: url(../partial/img/incrediblePatternPage.svg);
+}
+div.incredible>img{
+    margin: 50px 0;
+}
+div.category{
+    width: 100%;
+    height: 100px;
+    background-color: var(--BG);
+    border-bottom: 1px solid #E0DEE0;
+}
+div.category>div.options,div.category>div.options2{
+    width: 100px;
+    height: inherit;
+    background-color: transparent;
+    display: inline-block;
+    margin-right: 12px;
+}
+div.category>div.options2{
+    width: 180px;
+    height: inherit;
+}
+div.category>div.options>a,div.category>div.options2>a{
+    text-decoration: none;
+    line-height: inherit;
+}
+
+div.category>div.options>a>img,div.category>div.options2>a>img{
+    width: var(--WIncredible);
+    height: var(--HIncredible);
+    margin:0 30px;
+    filter: invert(100%) sepia(0%) saturate(7426%) hue-rotate(29deg) brightness(113%) contrast(93%);
+}
+div.category>div.options2>a>img{
+    margin: 0 70px;
+}
+div.category>div.options>a>p,div.category>div.options2>a>p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}

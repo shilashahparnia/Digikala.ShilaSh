@@ -2,7 +2,7 @@ div.suprise {
     width: 1300px;
     height: 300px;
     margin: 0 auto;
-    background-color: #ef394e;
+    background-color: var(--BG);
     margin-bottom: 10px;
     border-radius: 20px;
     display: flex;

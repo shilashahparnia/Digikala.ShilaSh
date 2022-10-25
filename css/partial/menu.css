@@ -93,7 +93,7 @@ div.menu>div.list>nav>ul>li:hover{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
-    display: block;
+    display: none;
     z-index: 2;
   }
   div.menu>div.list>nav>ul>li:hover>div.submenu{

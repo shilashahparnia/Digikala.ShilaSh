@@ -1,0 +1,142 @@
+div.IncredibleSlider{
+    width: 100%;
+    height: 450px;
+    background-color: var(--BG);
+    display: flex;
+    margin-bottom: 30px;
+}
+div.IncredibleSlider>div.boxsuprise{
+    width: 200px;
+    height: inherit;
+    background-color: transparent;
+}
+div.IncredibleSlider > div.boxsuprise > div.logosuprise {
+    width: inherit;
+    height: 200px;
+    background-color: transparent;
+    margin: 20px auto;
+    text-align: center;
+  }
+  div.IncredibleSlider > div.boxsuprise > div.logosuprise > a.text > img {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+  }
+  div.IncredibleSlider > div.boxsuprise > div.logosuprise > a.image > img {
+    width: 145px;
+    height: 145px;
+  }
+  div.IncredibleSlider>div.products{
+    width: calc(100% - 200px);
+    height: inherit;
+    background-color: transparent;
+    padding: 20px;
+  }
+  div.swiper-slide>div.title{
+    width: inherit;
+    height: 30px;
+    background-color: transparent;
+    margin-bottom: 5px;
+  }
+  div.swiper-slide>div.title>img{
+    width: 130px;
+    height: 20px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+div.swiper-slide>div.image{
+    width: inherit;
+    height: 150px;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+div.swiper-slide>div.image>a{
+    text-decoration: none;
+}
+div.swiper-slide>div.image>a>img{
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+}
+div.swiper-slide>div.details{
+    width: inherit;
+    height: 50px;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+div.swiper-slide>div.details>h5{
+    text-align: right;
+    padding-right: 10px;
+}
+div.swiper-slide>div.available{
+    width: inherit;
+    height: 30px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    text-align: right;
+}
+div.swiper-slide>div.available>i.fa-vote-yea{
+    filter: invert(67%) sepia(45%) saturate(3755%) hue-rotate(141deg) brightness(99%) contrast(80%);
+    margin: 0 10px;
+}
+div.swiper-slide>div.available>span{
+    color: var(--ColorFill);
+    font-size: 14px;
+}
+  div.swiper-slide>div.price{
+    width: inherit;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    margin-bottom: 5px;
+  }
+  div.swiper-slide>div.price>div.rebaja{
+    width: 45px;
+    height: 25px;
+    background-color: #ef394e;
+    margin-right: 10px;
+    margin-top: 6px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+  }
+  div.swiper-slide>div.price>div.price1{
+    width: 100px;
+    width: inherit;
+    background-color: transparent;
+    display: flex;
+    padding-top: 8px;
+  }
+  div.swiper-slide>div.price>div.price1>span{
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  div.swiper-slide>div.price>div.price1>img{
+    width: var(--WidthIcon2);
+    height: var( --HeightIcon2);
+  }
+  div.swiper-slide>div.price2{
+    width: inherit;
+    height: 30px;
+    background-color: transparent;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: line-through;
+    color: var(--ColorFill);
+    padding-left: 5px;
+    margin-bottom: 23px;
+  }
+  div.swiper-slide>div.time{
+    width: inherit;
+    height: 30px;
+    background-color: transparent;
+    text-align: right;
+  }
+  div.swiper-slide>div.time>span{
+    color: red;
+    font-size: 14px;
+    margin-right: 5px;
+  }

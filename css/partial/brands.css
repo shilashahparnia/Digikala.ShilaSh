@@ -35,7 +35,7 @@ div.brands>div.title>div.icon>img{
 div.brands>div.slider2{
     width: 1300;
     height: calc(230px - 80px);
-    background-color: #bdbfc3;
+    background-color: rgb(237, 239, 244);
     margin-top: 30px;
 }
 div.swiper-slide>div.imagen{
