@@ -2151,6 +2151,7 @@
               </div>
             </div>
             <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
           </div>
         </div>
@@ -2158,7 +2159,97 @@
       <!--end incredible slider-->
       <!--make final sale slider-->
       <div class="FinalSale">
-        
+        <div class="title">
+          <i class="far fa-clock"></i>
+          <h3>شگفت انگیزهای رو به اتمام</h3>
+        </div>
+        <div class="sliderBox">
+          <!-- Swiper -->
+          <div class="swiper LastSaleShila">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="title">
+                  <img
+                    src="./images/slider/IncredibleOffer.svg"
+                    alt="پیشنهاد شگفت انگیز "
+                  />
+                </div>
+                <div class="image">
+                  <a href="#">
+                    <img
+                      src="./images/slider/k7.jpg"
+                      alt="تشک"
+                    />
+                  </a>
+                </div>
+                <div class="details">
+                  <h5>تشک مهمان ژینورا مدل پرناز<br />سایز 185 در 185 سانتی متر</h5>
+                </div>
+                <div class="available">
+                  <i class="fas fa-vote-yea"></i
+                  ><span>موجود در انبار دیجی کالا</span>
+                </div>
+                <div class="price">
+                  <div class="rebaja">49%</div>
+                  <div class="price1">
+                    <span>215,000</span
+                    ><img
+                      src="./images/icons/toman-removebg-preview.svg"
+                      alt="toman"
+                    />
+                  </div>
+                </div>
+                <div class="price2">420,000</div>
+                <div class="time"><span>93% فروش رفته</span></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="title">
+                  <img
+                    src="./images/slider/IncredibleOffer.svg"
+                    alt="پیشنهاد شگفت انگیز "
+                  />
+                </div>
+                <div class="image">
+                  <a href="#">
+                    <img
+                      src="./images/slider/k14.jpg"
+                      alt="اسپیکر"
+                    />
+                  </a>
+                </div>
+                <div class="details">
+                  <h5>اسپیکر بلوتوثی قابل حمل لیتو<br />مدل PARTY PLUS 300</h5>
+                </div>
+                <div class="available">
+                  <i class="fas fa-vote-yea"></i
+                  ><span>موجود در انبار دیجی کالا</span>
+                </div>
+                <div class="price">
+                  <div class="rebaja">62%</div>
+                  <div class="price1">
+                    <span>1,099,000</span
+                    ><img
+                      src="./images/icons/toman-removebg-preview.svg"
+                      alt="toman"
+                    />
+                  </div>
+                </div>
+                <div class="price2">2,900,000</div>
+                <div class="time"><span>72% فروش رفته</span></div>
+              </div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
       </div>
       <!--end final sale slider-->
       <!--make info section -->
@@ -2454,10 +2545,23 @@
         },
         navigation: {
           nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
         autoplay: {
           delay: 2000,
           disableOnInteraction: false,
+        },
+      });
+      var swiper = new Swiper(".LastSaleShila", {
+        slidesPerView: 7,
+        spaceBetween: 1,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
       });
     </script>
