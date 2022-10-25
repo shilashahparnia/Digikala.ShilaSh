@@ -5,7 +5,7 @@ div.brands{
     margin-bottom: 30px;
     border-radius: var(--BorderRadius);
     border: var(--BoxBorder);
-    background-color: transparent;
+    background-color:transparent;
   }
 div.brands>div.title{
     width: inherit;
