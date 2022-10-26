@@ -24,7 +24,7 @@ div.slider{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    border-radius: 7px;
+    border-radius: 6px;
   }
   div.swiper-slide img {
     display: block;

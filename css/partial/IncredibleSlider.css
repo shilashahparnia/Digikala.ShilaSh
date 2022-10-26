@@ -87,7 +87,7 @@ div.swiper-slide>div.available>span{
   div.swiper-slide>div.price{
     width: inherit;
     height: 40px;
-    background-color: transparent;
+    background-color: aqua;
     display: flex;
     margin-bottom: 5px;
   }
