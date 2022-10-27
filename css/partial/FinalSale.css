@@ -5,7 +5,7 @@ div.FinalSale{
     margin: 0 auto;
     border: var(--BoxBorder);
     border-radius: var(--BorderRadius);
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 div.FinalSale>div.title{
     width: inherit;

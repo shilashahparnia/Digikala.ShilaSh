@@ -179,7 +179,6 @@ div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content>div
   width: calc(80% / 4);
   height: 100%;
   background-color: transparent;
-  border-right: 1px solid #E0DEE0;
   display: inline-block;
 }
 div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content>div.column>a.title{

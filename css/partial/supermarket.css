@@ -1,52 +1,70 @@
 div.superMarket{
     width: 1300px;
-    height: 120px;
+    height: 100px;
     background-color: #EBEEEA;
     margin:0 auto;
     border-radius: var(--BorderRadius);
     margin-bottom: 10px;
     display: flex;
   }
-  div.superMarket>div.logo2{
+  div.superMarket2{
+    width: 1430px;
+    height: 100px;
+    background-color: #EBEEEA;
+    margin:0 auto;
+    border-radius: var(--BorderRadius);
+    margin-bottom: 10px;
+    display: flex;
+  }
+  div.superMarket>div.logo2,div.superMarket2>div.logo2{
     width: 80px;
     height: 80px;
     background-color: transparent;
     margin-top: 10px;
-    margin-right: 30px;
+    margin-right: 20px;
   }
-  div.superMarket>div.logo3{
-    width: 300px;
-    height: 80px;
+  div.superMarket>div.logo3,div.superMarket2>div.logo3{
+    width: auto;
+    height: auto;
     background-color: transparent;
     margin-top: 10px;
-    margin-right: 10px;
   }
-  div.superMarket>div.logo2>img,div.superMarket>div.logo3>img{
+  div.superMarket>div.logo2>img,div.superMarket>div.logo3>img,div.superMarket2>div.logo2>img,div.superMarket2>div.logo3{
     padding-top: 10px;
-    padding-right: 10px;
   }
   div.superMarket>div.logo3>img{
     padding-top: 30px;
   }
-  div.superMarket>div.takhfif1{
+  div.superMarket2>div.logo3>img{
+    padding-top: 20px;
+  }
+  div.superMarket>div.takhfif1,div.superMarket2>div.takhfif1{
+    display: inline-block;
     width: 100px;
     height: 30px;
     background-color: #39AE00;
-    margin-top: 40px;
-    margin-right: 10px;
+    margin: 40px 10px;
     border-radius: 20px;
     text-align: center;
     padding-top: 5px;
     color: white;
     font-weight: 900;
   }
-  div.superMarket>div.takhfif2{
-    width: 540px;
-    height: 100px;
+  div.superMarket2>div.takhfif1{
     margin-right: 10px;
+  }
+  div.superMarket>div.takhfif2,div.superMarket2>div.takhfif2{
+    width: auto;
+    height: 100px;
     background-color: transparent;
   }
-  div.superMarket>div.takhfif2>div.products{
+  div.superMarket>div.takhfif2{
+    margin-right: 50px;
+  }
+  div.superMarket2>div.takhfif2{
+    margin-right: 180px;
+  }
+  div.superMarket>div.takhfif2>div.products, div.superMarket2>div.takhfif2>div.products{
     width: 80px;
     height: 80px;
     background-color: #FFFFFF;
@@ -55,37 +73,47 @@ div.superMarket{
     border-radius: 50px;
     display: inline-block;
   }
-  div.superMarket>div.takhfif2>div.products>img{
+   div.superMarket>div.takhfif2>div.products>a,div.superMarket2>div.takhfif2>div.products>a{
+    text-decoration: none;
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+   }
+  div.superMarket>div.takhfif2>div.products>a>img,div.superMarket2>div.takhfif2>div.products>a>img{
     width: 80px;
     border-radius: 50px;
   }
-  div.superMarket>div.takhfif2>div.products>div.percentage{
+  div.superMarket>div.takhfif2>div.products>a>div.percentage,div.superMarket2>div.takhfif2>div.products>a>div.percentage{
+    display: inline-block;
+    position: absolute;
+    margin-top: 60px;
     width: 40px;
     height: 20px;
-    background-color: #EF394E;
+    background-color: var(--BG);
     border-radius: 10px;
     text-align: center;
     color: white;
+    font-size: 14px;
     font-weight: 900;
   }
-  div.superMarket>div.background{
+  div.superMarket>div.background,div.superMarket2>div.background{
     width: 220px;
     height: 100px;
     background-image: url(./img/backgroundsupermarket.svg);
   }
-  div.superMarket>div.background>div.takhfif3{
+  div.superMarket>div.background>div.takhfif3, div.superMarket2>div.background>div.takhfif3{
     width: 150px;
     height: 50px;
     background-color: #FFFFFF;
     margin-top: 30px;
-    margin-right: 30px;
+    margin-right: 40px;
     border-radius: 25px;
     padding-top: 15px;
     padding-right: 20px;
     color: #39AE00;
     display: flex;
   }
-  div.superMarket>div.background>div.takhfif3>img{
+  div.superMarket>div.background>div.takhfif3>img,div.superMarket2>div.background>div.takhfif3>img{
     width: var(--WidthIcon);
     height: var(--HeightIcon);
     margin-right: 10px;
