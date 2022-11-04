@@ -50,8 +50,8 @@ div.swiper-slide>div.price{
     margin-left: 5px;
   }
   div.swiper-slide>div.price>div.price3>img{
-    width: var(--WidthIcon2);
-    height: var( --HeightIcon2);
+    width: var(--WToman);
+    height: var( --HToman);
   }
   div.swiper-slide>div.price4{
     width: inherit;
@@ -60,6 +60,7 @@ div.swiper-slide>div.price{
     text-align: center;
     line-height: 30px;
     text-decoration: line-through;
+    font-size: 15px;
     color: var(--ColorFill);
     padding-left: 5px;
     margin-bottom: 5px;

@@ -86,7 +86,7 @@ div.digiplus{
   div.digiplus>div.box2>div.heading>div.gifts>img,div.digiplus>div.box3>div.heading>div.gifts>img{
     width: 35px;
     height: 35px;
-    filter: invert(26%) sepia(20%) saturate(5354%) hue-rotate(285deg) brightness(96%) contrast(88%);
+    filter: var(--IconPurple);
     margin-top: 15px;
   }
   div.digiplus>div.box2>div.heading>div.text,div.digiplus>div.box3>div.heading>div.text, div.digiplus>div.box2>div.heading>div.text2,div.digiplus>div.box3>div.heading>div.text2{

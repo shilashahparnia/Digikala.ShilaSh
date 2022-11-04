@@ -89,7 +89,7 @@ div.menu>div.list>nav>ul>li:hover{
   div.menu>div.list>nav>ul>li>div.submenu{
     width: calc(100vw - 40px);
     height: 630px;
-    background-color: #f5f3f3;
+    background-color: white;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
@@ -135,7 +135,7 @@ div.menu>div.list>nav>ul>li:hover{
     transition: 300ms;
 }
   div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>a:hover{
-    background-color: #F7F7F8;
+    background-color: #F0F0F1;
     color: var(--Hover);
   }
   div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>a>img:hover{

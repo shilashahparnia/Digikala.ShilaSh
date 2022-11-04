@@ -15,7 +15,7 @@ div.slider{
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
+    display: block;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;

@@ -1,0 +1,202 @@
+div.allIncredibles{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+div.allIncredibles>h2{
+    padding-right: 30px;
+}
+div.menuIncredible{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+div.menuIncredible>i.fa-sort-amount-down{
+    padding-right: 30px;
+    padding-left: 10px;
+}
+div.menuIncredible>span{
+    font-size: 16px;
+    font-weight: bold;
+}
+div.menuIncredible>a.red,div.menuIncredible>a{
+    text-decoration: none;
+    color: var(--ColorFill);
+    padding:0 10px;
+    font-size: 16px;
+}
+div.menuIncredible>a.red{
+    color: red;
+}
+div.allIncredibleBox{
+    width: 100%;
+    height: 125vh;
+    background-color: transparent;
+    display: flex;
+}
+  .swiper-slide3 {
+    width: 295px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: block;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border: 2px solid #F0F0F1;
+  }
+  div.swiper-slide3>div.title{
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    text-align: right;
+    display: block;
+    margin-bottom: 10px;
+  }
+  div.swiper-slide3>div.title>img{
+    width: 130px;
+    height: 20px;
+    object-fit: contain;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  div.swiper-slide3>div.image{
+    width: inherit;
+    height: 240px;
+    background-color: transparent;
+    margin-bottom: 30px;
+    display: block;
+  }
+  div.swiper-slide3>div.image>a{
+    text-decoration: none;
+    display: block;
+    width: auto;
+    height: inherit;
+  }
+  div.swiper-slide3>div.image>a>img{
+    width: inherit;
+    height: inherit;
+  }
+  div.swiper-slide3>div.details{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+div.swiper-slide3>div.details>h5{
+    text-align: right;
+    padding-right: 20px;
+}
+div.swiper-slide3>div.available{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+div.swiper-slide3>div.available>div.gift{
+  width: 70%;
+  height: inherit;
+  background-color: transparent;
+  margin-left: 10px;
+  display: flex;
+}
+
+div.swiper-slide3>div.available>div.gift>img{
+  width: var(--WidthIcon);
+  height: var(--HeightIcon);
+  margin-right: 10px;
+  filter: var(--IconPurple);
+}
+div.swiper-slide3>div.available>div.gift>p,div.swiper-slide3>div.available>div.star>p{
+    color: var(--ColorFill);
+    font-size: 15px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+div.swiper-slide3>div.available>div.star{
+  width: 40%;
+  height: inherit;
+  background-color: transparent;
+  display: flex;
+}
+div.swiper-slide3>div.available>div.star>p{
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 50px;
+}
+div.swiper-slide3>div.available>div.star>i.fa-star{
+  padding-top: 5px;
+  margin-right: 10px;
+  color: #F9BC00;
+}
+div.swiper-slide3>div.price{
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  display: flex;
+}
+div.swiper-slide3>div.price>div.rebaja{
+  width: 45px;
+  height: 25px;
+  background-color: #ef394e;
+  margin-right: 20px;
+  margin-top: 6px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+div.swiper-slide3>div.price>div.price1{
+  width: 100px;
+  width: inherit;
+  background-color: transparent;
+  display: flex;
+  padding-top: 8px;
+}
+div.swiper-slide3>div.price>div.price1>span{
+  font-weight: bold;
+  margin-right: 125px;
+  margin-left: 5px;
+}
+div.swiper-slide3>div.price>div.price1>img{
+  width: var(--WToman);
+  height: var( --HToman);
+}
+div.swiper-slide3>div.price2{
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  line-height: 30px;
+  padding-right: 130px;
+  text-decoration: line-through;
+  font-size: 15px;
+  color: var(--ColorFill);
+  padding-left: 5px;
+}
+div.swiper-slide3>div.time{
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  text-align: right;
+}
+div.swiper-slide3>div.time>span{
+  color: red;
+  font-size: 14px;
+  margin-right: 10px;
+}

@@ -3,18 +3,15 @@ div.advertisement2{
     height: 300px;
     margin: 0 auto ;
     margin-bottom: 30px;
-    background-color: transparent;
     border-radius: 20px;
   }
-  div.advertisement2>div{
-    width: 650px;
-    display: inline-block;
-    margin-left: 12px;
-    margin-top: 10px;
-    border-radius: 20px;
+  div.advertisement2>a{
+    text-decoration: none;
+    height: inherit;
   }
-  div.advertisement2>div>img{
+  div.advertisement2>a>img{
     width: 660px;
-    height: 280px;
-    border-radius: 20px;
+    height: inherit;
+    border-radius: var(--BorderRadius);
+    margin-right: 2px;
   }

@@ -13,6 +13,7 @@ div.highsale {
     background-color: transparent;
     display: flex;
     margin-bottom: 40px;
+    margin-top: 10px;
   }
   div.highsale > div.title > div.text {
     width: 200px;
@@ -40,8 +41,6 @@ div.highsale {
       background-color: transparent;
       padding: 10px;
       display: flex;
-  }
-  div.swiper-slide{
   }
   div.swiper-slide>div.row1,div.swiper-slide>div.row2{
       width: calc(1280px / 4);

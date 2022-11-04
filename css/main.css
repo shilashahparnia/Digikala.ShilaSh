@@ -20,6 +20,7 @@ author: Shila Shahparnia
 @import "partial/highsale.css";
 @import "partial/advertisement3.css";
 @import "partial/selectedPros.css";
+@import "partial/selectedPros1.css";
 @import "partial/reading.css";
 @import "partial/info.css";
 @import "partial/sending.css";
@@ -31,3 +32,5 @@ author: Shila Shahparnia
 @import "partial/incredible.css";
 @import "partial/IncredibleSlider.css";
 @import "partial/FinalSale.css";
+@import "partial/allIncredibles.css";
+

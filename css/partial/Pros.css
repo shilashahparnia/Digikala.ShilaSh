@@ -1,16 +1,17 @@
 div.products2{
     width: 1330px;
-    height: 550px;
+    height: 450px;
     background-color: transparent;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: var(--BorderRadius);
     display: flex;
-    border: 2px solid #D3D3D3;
+    border: var(--BoxBorder);
   }
   div.products2>div.kala2{
+    width: inherit;
+    height: inherit;
     background-color: transparent;
-    margin-left: 15px;
-    border-radius: 20px;
+    margin-left: 10px;
     margin-right: 5px;
   }
   div.products2>div.kala2>div.title{
@@ -25,26 +26,40 @@ div.products2{
     margin-right: 10px;
     margin-top: 10px;
   }
-  div.products2>div.kala2>div.products3{
-    width: 143px;
-    height: 180px;
-    background-color: transparent;
-    display: inline-block;
-    margin-right: 5px;
+  div.products2>div.kala2>div.subtitle>p{
+    color: var(--ColorFill);
+    font-size: 14px;
+  }
+  div.products2>div.kala2>div.SliderBox{
+    width: 100%;
+    height: calc(100% - 110px);
     margin-top: 5px;
-    margin-bottom: 15px;
-  }
-  div.products2>div.kala2>span{
-    padding-right: 10px;
-    font-size: 20px;
-    margin-right: 130px;
-    color: var(--View);
-    display: inline-block;
     background-color: transparent;
   }
-  
-  div.products2>div.kala2>div.products3>img{
+  div.swiper-slide2>a{
+    text-decoration: none;
+  }
+  div.swiper-slide2>a>img{
     width: 140px;
-    height: 160px;
-    margin-top: 10px;
+    height: 140px;
+  }
+  div.products2>div.kala2>div.view{
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+  }
+  div.products2>div.kala2>div.view>a{
+    text-decoration: none;
+    width: inherit;
+    height: inherit;
+  }
+  div.products2>div.kala2>div.view>a>p{
+    text-align: center;
+    color: var(--View);
+    font-weight: bold;
+  }
+  div.products2>div.kala2>div.view>a>p>span.fa-chevron-left{
+    padding-right: 10px;
+    line-height: 30px;
+    font-size: 10px;
   }

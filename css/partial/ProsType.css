@@ -1,43 +1,37 @@
 div.ProsType{
     width: 1330px;
-    height: 30px;
-    background-color: transparent;
-    margin-top: 30px;
-    margin-right: 100px;
+    height: 40px;
+    margin: 0 auto;
     text-align: center;
     font-size: 30px;
   }
   div.ProsType1,div.ProsType2{
     width: 1300px;
-    height: 220px;
-    background-color: transparent;
-    margin-right: 100px;
+    height: 200px;
+    margin: 0 auto;
     margin-top: 40px;
     text-align: center;
   }
   div.ProsType2{
     margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  div.ProsType1>p{
-    width: 100%;
-    background-color: #EF3A4F;
-    text-align: center;
-    font-weight: 300;
-    font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   div.ProsType1>div.kala,div.ProsType2>div.kala{
     width: 180px;
-    height: 170px;
+    height: 150px;
     display: inline-block;
-    background-color: transparent;
-    margin-left: 15px;
-    margin-right: 10px;
-    margin-top: 30px;
+    margin: 0 auto;
     border-radius: 20px;
   }
-  div.ProsType1>div.kala>img,div.ProsType2>div.kala>img{
-   width: 150px;
-   height: 150px;
+  div.ProsType1>div.kala>a,div.ProsType2>div.kala>a{
+    text-decoration: none;
+  }
+  div.ProsType1>div.kala>a>img,div.ProsType2>div.kala>a>img{
+    width: 150px;
+    height: 150px;
+  }
+  div.ProsType1>div.kala>a.subtitle,div.ProsType2>div.kala>a.subtitle{
+    text-decoration: none;
+    display: block;
+    color: black;
   }

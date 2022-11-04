@@ -87,7 +87,7 @@ div.swiper-slide>div.available>span{
   div.swiper-slide>div.price{
     width: inherit;
     height: 40px;
-    background-color: aqua;
+    background-color: transparent;
     display: flex;
     margin-bottom: 5px;
   }
@@ -115,8 +115,8 @@ div.swiper-slide>div.available>span{
     margin-left: 5px;
   }
   div.swiper-slide>div.price>div.price1>img{
-    width: var(--WidthIcon2);
-    height: var( --HeightIcon2);
+    width: var(--WToman);
+    height: var( --HToman);
   }
   div.swiper-slide>div.price2{
     width: inherit;
@@ -125,6 +125,7 @@ div.swiper-slide>div.available>span{
     text-align: center;
     line-height: 30px;
     text-decoration: line-through;
+    font-size: 15px;
     color: var(--ColorFill);
     padding-left: 5px;
     margin-bottom: 23px;

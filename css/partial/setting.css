@@ -8,6 +8,8 @@
     width: 100%;
   }
   :root{
+    --WToman:20px;
+    --HToman:20px;
     --WidthIcon:25px;
     --HeightIcon:25px;
     --WidthIcon2:30px;
@@ -16,6 +18,7 @@
     --HIncredible:40px;
     --WSocialMedia:50px;
     --HSocialMedia:50px;
+    --IconPurple: invert(26%) sepia(20%) saturate(5354%) hue-rotate(285deg) brightness(96%) contrast(88%);
     --IconFilter:invert(71%) sepia(11%) saturate(102%) hue-rotate(184deg) brightness(92%) contrast(86%);
     --BoxBorder:2px solid #E0DEE0;
     --ColorFill:#81858B;

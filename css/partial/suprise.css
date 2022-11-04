@@ -16,7 +16,7 @@ div.suprise {
     width: 120px;
     height: 120px;
     background-color: transparent;
-    margin: 10px auto;
+    margin: 5px auto;
     text-align: center;
   }
   div.suprise > div.boxsuprise > div.logosuprise > a.text > img {
@@ -40,17 +40,14 @@ div.suprise {
   }
   div.suprise > div.boxsuprise > div.view > a > p {
     color: white;
-    display: flex;
     padding-right: 20px;
+    line-height: 30px;
+    font-weight: bold;
   }
-  div.suprise > div.boxsuprise > div.view > a > p > img {
-    width: var(--WidthIcon);
-    height: var(--HeightIcon);
-    filter: invert(98%) sepia(38%) saturate(662%) hue-rotate(319deg)
-      brightness(121%) contrast(91%);
-  }
-  div.swiper-slide {
-    flex-direction: column;
+  div.suprise>div.boxsuprise>div.view>a>i.fa-chevron-left{
+    margin-right: 10px;
+    line-height: 30px;
+    color: white;
   }
   div.suprise > div.pros {
     width: 1150px;
@@ -58,42 +55,85 @@ div.suprise {
     padding: 20px;
   }
   div.swiper-slide>div.foto{
-      width: 150px;
+      width: inherit;
       height: 150px;
+      background-color: transparent;
+      margin-bottom: 15px;
   }
-  div.swiper-slide > div.rebaja {
-    width: 40px;
-    height: 25px;
+  div.swiper-slide>div.foto>a{
+    text-decoration: none;
+  }
+  div.swiper-slide>div.foto>a>img{
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+  div.swiper-slide>div.prices{
+    width: inherit;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+  }
+  div.swiper-slide>div.prices>div.rebaja{
+    width: 35px;
+    height: 20px;
     background-color: #ef394e;
     margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 6px;
     border-radius: 10px;
     text-align: center;
     color: white;
     font-weight: 900;
+    font-size: 14px;
   }
-  div.swiper-slide>div.precio1{
-      font-weight: bold;
+  div.swiper-slide>div.prices>div.SecondPrice{
+    width: 60%;
+    height: inherit;
+    background-color: transparent;
+    display: flex;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 17px;
   }
-  div.swiper-slide>div.precio1>img{
-      width: 25px;
-      height: 25px;
+  div.swiper-slide>div.prices>div.SecondPrice>img{
+    width: var(--WToman);
+    height: var(--HToman);
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
   }
-  div.swiper-slide>div.precio2{
-      text-decoration: line-through;
-      color: var(--ColorFill);
+  div.swiper-slide>div.FirstPrice{
+    width: inherit;
+    height: 30px;
+    background-color: transparent;
+    line-height: 30px;
+    text-decoration: line-through;
+    font-size: 15px;
+    color: var(--ColorFill);
+    margin-top: 10px;
+    margin-right: 10px;
   }
   div.swiper-slide>div.circulo{
-      width: 60px;
-      height: 60px;
-      background-color: aquamarine;
-      border-radius: 50px;
-  }
-  div.swiper-slide>div.circulo>a>img{
-      width: var(--WidthIcon);
-      height: var(--HeightIcon);
-      margin-top: 15px;
-      margin-right: 15px;
-  }
-  div.swiper-slide>div.view>a{
-      text-decoration: none;
-  }
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 80px;
+    margin-right: 60px;
+    border: 2px solid #19BFD3;
+}
+div.swiper-slide>div.circulo>a>i.fa-arrow-left{
+ line-height: 60px;
+ font-size: 20px;
+ color: var(--View);
+}
+div.swiper-slide>div.all{
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+}
+div.swiper-slide>div.all>a{
+  text-decoration: none;
+  color: black;
+}

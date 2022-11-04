@@ -1,0 +1,123 @@
+div.SelectedPros {
+    width: 1330px;
+    height: 900px;
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 2px solid #d3d3d3;
+    margin-bottom: 30px;
+  }
+  div.SelectedPros > div.titel1 {
+    width: inherit;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+  }
+  div.SelectedPros > div.titel1 > div.text {
+    width: 400px;
+    height: inherit;
+    font-size: 28px;
+  }
+  div.SelectedPros > div.titel1 > div.icon {
+    width: 50px;
+    height: inherit;
+    margin-right: 500px;
+  }
+  div.SelectedPros > div.titel1 > div.icon > img {
+    width: var(--WidthIcon2);
+    height: var(--HeightIcon2);
+    margin-top: 10px;
+    margin-right: 15px;
+    filter: invert(35%) sepia(68%) saturate(2790%) hue-rotate(330deg)
+      brightness(96%) contrast(94%);
+  }
+  div.SelectedPros>div.BoxGrid{
+    width: inherit;
+    height: auto;
+    background-color: #d3d3d3;
+    margin-bottom: 20px;
+  }
+  div.SelectedPros>div.BoxGrid>div.grid-container{
+    display: grid;
+    grid-template-columns: repeat(6, 219px);
+    grid-auto-rows: 240px;
+    gap: 2.7px;
+  }
+  div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item{
+    padding: 10px;
+    background-color: white;
+  }
+  div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item>div.image{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+  div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item>div.image>a{
+    text-decoration: none;
+    width: inherit;
+    height: inherit;
+  }
+  div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item>div.image>a>img{
+    width: inherit;
+    height: inherit;
+  }
+  div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item>div.precio{
+    width: inherit;
+    height: 30px;
+    display: flex;
+    margin-bottom: 5px;
+  }
+  div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item>div.precio>div.descuento{
+    width: 35%;
+    height: 20px;
+    background-color: #ef394e;
+    margin-right: 10px;
+    margin-left: 80px;
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    padding-right: 8px;
+  }
+  div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item>div.precio>div.SecondP{
+    width: 70%;
+    height: inherit;
+    font-weight: bold;
+    display: flex;
+  }
+  div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item>div.precio>div.SecondP>img{
+    width: var(--WToman);
+    height: var(--HToman);
+  }
+  div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item>div.Firstp{
+    width: inherit;
+    height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    text-decoration: line-through;
+    font-size: 15px;
+    color: var(--ColorFill);
+  }
+  div.SelectedPros>div.more{
+    width: inherit;
+    height: 40px;
+  }
+  div.SelectedPros>div.more>a{
+    text-decoration: none;
+    width: inherit;
+    height: inherit;
+    line-height: 40px;
+    color: var(--View);
+  }
+  div.SelectedPros>div.more>a>p{
+    text-align: center;
+    font-size: 18px;
+  }
+  div.SelectedPros>div.more>a>p>i.fa-chevron-left{
+    margin-right: 5px;
+    font-size: 10px;
+  }

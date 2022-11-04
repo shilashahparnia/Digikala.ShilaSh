@@ -41,5 +41,15 @@ div.brands>div.slider2{
 div.swiper-slide>div.imagen{
     width: 120px;
     height: 120px;
-    background-color: transparent;
+    margin: 0 auto;
+}
+div.swiper-slide>div.imagen>a{
+    text-decoration: none;
+    width: inherit;
+    height: inherit;
+}
+div.swiper-slide>div.imagen>a>img{
+    width: inherit;
+    height: inherit
+    ;
 }
