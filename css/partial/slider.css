@@ -32,4 +32,6 @@ div.slider{
     height: 100%;
     object-fit: cover;
   }
-  
+  div.swiper-slide>a{
+    text-decoration: none;
+  }

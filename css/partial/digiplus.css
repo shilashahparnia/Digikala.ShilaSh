@@ -103,10 +103,18 @@ div.digiplus{
   div.digiplus>div.box2>div.heading>div.text2,div.digiplus>div.box3>div.heading>div.text2{
     margin-right: 160px;
   }
-  div.digiplus>div.box2>div.heading>div.text2>p,div.digiplus>div.box3>div.heading>div.text2>p{
-    text-align: left;
-    padding-top: 20px;
+  div.digiplus>div.box2>div.heading>div.text2>a,div.digiplus>div.box3>div.heading>div.text2>a{
+    text-decoration: none;
     color: #941B80;
+  }
+  div.digiplus>div.box2>div.heading>div.text2>a>p,div.digiplus>div.box3>div.heading>div.text2>a>p{
+    text-align: left;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  div.digiplus>div.box2>div.heading>div.text2>a>p>i.fa-chevron-left,div.digiplus>div.box3>div.heading>div.text2>a>p>i.fa-chevron-left{
+    font-size: 10px;
+    margin-right: 5px;
   }
   div.digiplus>div.box2>div.imagenes,div.digiplus>div.box3>div.imagenes{
     width: inherit;

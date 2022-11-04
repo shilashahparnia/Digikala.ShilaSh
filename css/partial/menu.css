@@ -60,6 +60,14 @@ div.menu>div.list>nav>ul>li:hover{
     text-decoration: none;
     color: var(--ColorFill);
   }
+  div.menu>div.list>nav>ul>li>div.text>a>span.verticalLine{
+    padding-left: 20px;
+    color: var(--ColorFill);
+  }
+  div.menu>div.list>nav>ul>li>div.text>a>span.verticalLine1{
+    padding-right: 25px;
+    color: var(--ColorFill);
+  }
   div.menu>div.list>nav>ul>li>div.text>a.bold{
     font-weight: bold;
     font-size: 18px;

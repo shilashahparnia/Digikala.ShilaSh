@@ -76,10 +76,10 @@ div.header2 > div.left {
   display: flex;
 }
 div.header2 > div.left > div.register {
-  width: 155px;
+  width: 145px;
   height: 40px;
   padding-right: 10px;
-  padding-left: 20px;
+  padding-left: 10px;
   border-radius: 10px;
   text-align: left;
   font-size: 16px;
@@ -92,6 +92,7 @@ div.header2 > div.left > div.register {
 }
 div.header2 > div.left > div.buy {
   width: 60px;
+  height: auto;
 }
 div.header2 > div.left > div.buy > a > img {
   width: var(--WidthIcon2);

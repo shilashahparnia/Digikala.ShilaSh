@@ -19,26 +19,26 @@ div.superMarket{
   div.superMarket>div.logo2,div.superMarket2>div.logo2{
     width: 80px;
     height: 80px;
-    background-color: transparent;
     margin-top: 10px;
     margin-right: 20px;
   }
   div.superMarket>div.logo3,div.superMarket2>div.logo3{
     width: auto;
     height: auto;
-    background-color: transparent;
     margin-top: 10px;
   }
-  div.superMarket>div.logo2>img,div.superMarket>div.logo3>img,div.superMarket2>div.logo2>img,div.superMarket2>div.logo3{
+  div.superMarket>div.logo2>a,div.superMarket>div.logo3>a,div.superMarket2>div.logo2>a,div.superMarket2>div.logo3>a{
+    text-decoration: none;
+    width: inherit;
+    height: inherit;
+  }
+  div.superMarket>div.logo2>a>img,div.superMarket>div.logo3>a>img,div.superMarket2>div.logo2>a>img{
     padding-top: 10px;
   }
-  div.superMarket>div.logo3>img{
+  div.superMarket>div.logo3>a>img,div.superMarket2>div.logo3>a>img{
     padding-top: 30px;
   }
-  div.superMarket2>div.logo3>img{
-    padding-top: 20px;
-  }
-  div.superMarket>div.takhfif1,div.superMarket2>div.takhfif1{
+  div.superMarket>div.takhfif1>a,div.superMarket2>div.takhfif1>a{
     display: inline-block;
     width: 100px;
     height: 30px;
@@ -49,8 +49,9 @@ div.superMarket{
     padding-top: 5px;
     color: white;
     font-weight: 900;
+    text-decoration: none;
   }
-  div.superMarket2>div.takhfif1{
+  div.superMarket2>div.takhfif1>a{
     margin-right: 10px;
   }
   div.superMarket>div.takhfif2,div.superMarket2>div.takhfif2{
@@ -101,7 +102,9 @@ div.superMarket{
     height: 100px;
     background-image: url(./img/backgroundsupermarket.svg);
   }
-  div.superMarket>div.background>div.takhfif3, div.superMarket2>div.background>div.takhfif3{
+  div.superMarket>div.background>div.takhfif3>a, div.superMarket2>div.background>div.takhfif3>a{
+    text-decoration: none;
+    display: flex;
     width: 150px;
     height: 50px;
     background-color: #FFFFFF;
@@ -111,11 +114,9 @@ div.superMarket{
     padding-top: 15px;
     padding-right: 20px;
     color: #39AE00;
-    display: flex;
   }
-  div.superMarket>div.background>div.takhfif3>img,div.superMarket2>div.background>div.takhfif3>img{
-    width: var(--WidthIcon);
-    height: var(--HeightIcon);
+  div.superMarket>div.background>div.takhfif3>a>i.fa-arrow-left, div.superMarket2>div.background>div.takhfif3>a>i.fa-arrow-left{
+    font-size: 15px;
     margin-right: 10px;
-    filter: invert(58%) sepia(63%) saturate(2957%) hue-rotate(62deg) brightness(89%) contrast(106%);
+    margin-top: 5px;
   }

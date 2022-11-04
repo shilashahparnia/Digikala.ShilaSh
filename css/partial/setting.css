@@ -38,5 +38,7 @@
   }
   div>hr{
     margin: 20px 0;
-    color: var(--ColorFill);
+    color: #622762;
+    background-color: #dee0df;
   }
+  

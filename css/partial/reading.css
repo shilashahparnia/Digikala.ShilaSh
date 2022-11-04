@@ -2,13 +2,34 @@ div.reading {
     width: 1330px;
     height: 350px;
     margin: 0 auto;
-    background-color: transparent;
     margin-bottom: 30px;
   }
-  div.reading > div.title {
+  div.reading > div.heading {
     width: inherit;
     height: 40px;
-    background-color: transparent;
+    margin-bottom: 5px;
+  }
+  div.reading > div.heading >div.titulo{
+    width: 1100px;
+    height: inherit;
+    display: inline-block;
+    margin-left: 25px;
+    line-height: 40px;
+  }
+  div.reading > div.heading >div.readMore>a{
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+    color: var(--View);
+    padding-right: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  div.reading > div.heading >div.readMore{
+    width: 200px;
+    height: inherit;
+    display: inline-block;
+    line-height: 40px;
   }
   div.reading > div.news {
     width: 314px;
@@ -24,7 +45,6 @@ div.reading {
   div.reading > div.news > div.imagen {
     width: inherit;
     height: 210px;
-    background-color: transparent;
   }
   div.reading > div.news > div.text {
     width: inherit;
