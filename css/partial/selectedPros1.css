@@ -1,7 +1,6 @@
 div.SelectedPros {
     width: 1330px;
     height: 900px;
-    background-color: transparent;
     margin: 0 auto;
     margin-top: 30px;
     border-radius: 20px;
@@ -18,7 +17,7 @@ div.SelectedPros {
   div.SelectedPros > div.titel1 > div.text {
     width: 400px;
     height: inherit;
-    font-size: 28px;
+    font-size: 24px;
   }
   div.SelectedPros > div.titel1 > div.icon {
     width: 50px;
@@ -71,35 +70,38 @@ div.SelectedPros {
     margin-bottom: 5px;
   }
   div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item>div.precio>div.descuento{
-    width: 35%;
-    height: 20px;
+    width: 45px;
+    height: 22px;
     background-color: #ef394e;
-    margin-right: 10px;
-    margin-left: 80px;
+    margin-right: 5px;
+    margin-left: 60px;
     display: flex;
     border-radius: 10px;
     color: white;
     font-weight: 900;
-    font-size: 15px;
-    padding-right: 8px;
+    font-size: 14px;
+    line-height: 22px;
+    padding-right: 5px;
   }
   div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item>div.precio>div.SecondP{
     width: 70%;
     height: inherit;
     font-weight: bold;
     display: flex;
+    font-size: 18px;
   }
   div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item>div.precio>div.SecondP>img{
     width: var(--WToman);
     height: var(--HToman);
+    margin-right: 5px;
   }
   div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item>div.Firstp{
     width: inherit;
     height: 20px;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 55px;
     text-decoration: line-through;
-    font-size: 15px;
+    font-size: 14px;
     color: var(--ColorFill);
   }
   div.SelectedPros>div.more{

@@ -1,0 +1,88 @@
+div.entrar{
+    width: 450px;
+    height: 460px;
+    margin: 150px auto;
+    border-radius: var(--BorderRadius);
+    border: var(--BoxBorder);
+}
+div.entrar>div.logo{
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    margin: 30px auto;
+}
+div.entrar>div.logo>a{
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+}
+div.entrar>div.logo>a>img{
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+div.entrar>div.entrar1{
+    width: 80%;
+    height: 50px;
+    margin: 20px auto;
+}
+div.entrar>div.entrar1>p.bold{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+div.entrar>div.entrar1>p.bold>span.verticalLine{
+    margin: 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+div.entrar>div.email{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 30px auto;
+    border: 1px solid #19BFD3;
+}
+div.entrar> div.email > form.fill1 {
+    width: 80%;
+    height: inherit;
+    height: inherit;
+    margin-right: 10px;
+  }
+  div.entrar> div.email > form.fill1 > input.write1 {
+    width: inherit;
+    height: 40px;
+    outline-style: none;
+    border: none;
+    font-size: 16px;
+  }
+  div.entrar>div.enter{
+    width: 80%;
+    height: 50px;
+    background-color: var(--BG);
+    margin: 15px auto;
+    border-radius: 10px;
+}
+div.entrar>div.enter>a{
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+}
+div.entrar>div.enter>a>p{
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+div.entrar>div.conditions{
+    width: 80%;
+    height: 40px;
+    margin: 5px auto;
+}
+div.entrar>div.conditions>p{
+    font-size: 12px;
+}
+div.entrar>div.conditions>p>a{
+    text-decoration: none;
+    color: var(--View);
+}

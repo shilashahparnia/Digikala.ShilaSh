@@ -1,21 +1,18 @@
 div.info{
     width: 1450px;
     height: 140px;
-    background-color: transparent;
     margin-right: 10px;
     margin-bottom: 20px;
   }
   div.info>div.infologo{
     width: 1450px;
     height: 60px;
-    background-color: transparent;
     margin-bottom: 10px;
     display: flex;
   }
   div.info>div.infotel{
     width: 1450px;
     height: 60px;
-    background-color: transparent;
     display: flex;
   }
   div.info>div.infotel>p{
@@ -25,7 +22,6 @@ div.info{
   div.info>div.infologo>div.logo6{
     width: 120px;
     height: 60px;
-    background-color: transparent;
   }
   div.info>div.infologo>div.logo6>img{
     margin-top: 15px;

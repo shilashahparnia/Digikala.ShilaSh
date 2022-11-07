@@ -17,7 +17,6 @@ div.category{
 div.category>div.options,div.category>div.options2{
     width: 100px;
     height: inherit;
-    background-color: transparent;
     display: inline-block;
     margin-right: 12px;
 }

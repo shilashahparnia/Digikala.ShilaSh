@@ -10,7 +10,6 @@ div.digiclub {
   div.digiclub > div.logo4 {
     width: 100;
     height: 100px;
-    background-color: transparent;
   }
   div.digiclub > div.logo4 > img {
     width: 130px;
@@ -43,7 +42,6 @@ div.digiclub {
   div.digiclub > div.prize > div.text {
     width: 140px;
     height: 70px;
-    background-color: transparent;
     text-align: center;
     margin-top: 5px;
     display: flex;
@@ -69,7 +67,6 @@ div.digiclub {
   div.digiclub > div.mission > div.foto,
   div.digiclub > div.prize > div.foto {
     width: 160px;
-    background-color: transparent;
   }
   div.digiclub > div.luck > div.foto > a > img,
   div.digiclub > div.mission > div.foto > a > img,

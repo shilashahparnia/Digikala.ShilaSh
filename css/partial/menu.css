@@ -70,7 +70,7 @@ div.menu>div.list>nav>ul>li:hover{
   }
   div.menu>div.list>nav>ul>li>div.text>a.bold{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
   }
   div.menu>div.city{
@@ -96,7 +96,7 @@ div.menu>div.list>nav>ul>li:hover{
   }
   div.menu>div.list>nav>ul>li>div.submenu{
     width: calc(100vw - 40px);
-    height: 630px;
+    height: 610px;
     background-color: white;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -132,7 +132,7 @@ div.menu>div.list>nav>ul>li:hover{
     color: black;
     font-weight: bold;
     padding-right: 20px;
-    font-size: 18px;
+    font-size: 16px;
     transition: 300ms;
 }
   div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>a>img{
@@ -151,7 +151,7 @@ div.menu>div.list>nav>ul>li:hover{
 }
 div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left{
   width: 83%;
-  height: 630px;
+  height: 610px;
   position: absolute;
   top: 0;
   left: 0;
@@ -193,7 +193,6 @@ div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content>div
   display: block;
   color: black;
   text-decoration: none;
-  font-size: 16px;
   font-weight: bold;
   padding-right: 15px;
   transition: 300ms; 
@@ -212,7 +211,7 @@ div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content>div
   text-decoration: none;
   color: var(--ColorFill);
   padding-right: 15px;
-  padding-top: 13px;
+  padding-top: 5px;
 }
 div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>div.left>div.content>div.column>a:hover{
   color: var(--Hover);

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: shila;
+    font-size: 14px;
   }
   div.wrapper{
     width: 100%;
@@ -31,14 +32,12 @@
   }
   @font-face{
     font-family: shila;
-    src: url(./fonts/fa/Yekan.ttf);
-    src: url(./fonts/fa/Yekan.eot);
-    src: url(./fonts/fa/Yekan.woff);
-    src: url(./fonts/fa/Yekan.woff2);
+    src: url(./fonts/faSh/yekan.eot);
+    src: url(./fonts/faSh/yekan.ttf);
+    src: url(./fonts/faSh/yekan.woff);
+    src: url(./fonts/faSh/yekan.woff2);
   }
   div>hr{
     margin: 20px 0;
-    color: #622762;
-    background-color: #dee0df;
   }
   

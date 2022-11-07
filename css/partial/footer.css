@@ -1,7 +1,6 @@
 div.footer {
   width: 1450px;
   height: 330px;
-  background-color: transparent;
   margin-right: 10px;
   margin-bottom: 50px;
   text-align: center;
@@ -10,7 +9,6 @@ div.footer {
 div.footer > div.column {
   width: 400px;
   height: inherit;
-  background-color: transparent;
   margin-right: 5px;
 }
 div.footer > div.column > p {
@@ -18,7 +16,7 @@ div.footer > div.column > p {
   padding-top: 10px;
   padding-right: 10px;
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 900;
 }
 div.footer > div.column > a {
@@ -28,12 +26,11 @@ div.footer > div.column > a {
   color: var(--ColorFill);
   text-align: right;
   padding-right: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 div.footer > div.column > div.icons {
   width: 300px;
   height: 60px;
-  background-color: transparent;
   margin-right: 10px;
 }
 div.footer > div.column > div.icons > a > img {
@@ -44,7 +41,6 @@ div.footer > div.column > div.icons > a > img {
 }
 div.footer > div.column > div.correo {
   height: 60px;
-  background-color: transparent;
   margin-right: 10px;
   margin-top: 10px;
   display: flex;
@@ -52,7 +48,7 @@ div.footer > div.column > div.correo {
 div.footer > div.column > div.correo > p {
   text-align: right;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 16px;
   padding-top: 15px;
 }
 div.footer > div.column > div.correo > div.email {
@@ -64,7 +60,6 @@ div.footer > div.column > div.correo > div.email {
 div.footer > div.column > div.correo > div.email > form.fill1 {
   width: 250px;
   height: inherit;
-  background-color: transparent;
   margin-right: 10px;
 }
 div.footer > div.column > div.correo > div.email > form.fill1 > input.write1 {
@@ -74,7 +69,7 @@ div.footer > div.column > div.correo > div.email > form.fill1 > input.write1 {
   outline-style: none;
   border: none;
   color: #a1a3a8;
-  font-size: 18px;
+  font-size: 16px;
 }
 div.footer > div.column > div.correo > div.register2 {
   width: 60px;
@@ -82,6 +77,11 @@ div.footer > div.column > div.correo > div.register2 {
   margin-right: 10px;
   border-radius: 10px;
   background-color: #f0f0f1;
-  color: #a1a3a8;
   padding-top: 15px;
+}
+div.footer > div.column > div.correo > div.register2>a{
+  width: inherit;
+  height: inherit;
+  text-decoration: none;
+  color: #a1a3a8;
 }

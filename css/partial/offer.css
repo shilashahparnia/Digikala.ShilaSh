@@ -4,15 +4,13 @@ div.offer{
     margin: 0 auto;
     margin-bottom: 30px;
     margin-top: 30px;
-    background-color: transparent;
   }
   div.offer>div.offerTitle{
     width: inherit;
     height: 40px;
-    background-color: transparent;
   }
   div.offer>div.offerTitle>h1{
-    font-size: 28px;
+    font-size: 22px;
     text-align: center;
   }
 div.offer>div.offerBox{

@@ -5,6 +5,10 @@ div.ProsType{
     text-align: center;
     font-size: 30px;
   }
+  div.ProsType>p{
+    font-size: 22px;
+    font-weight: bold;
+  }
   div.ProsType1,div.ProsType2{
     width: 1300px;
     height: 200px;

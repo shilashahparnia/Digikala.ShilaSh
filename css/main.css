@@ -1,5 +1,5 @@
 /*
-Version: 1.5.0
+Version: 1.6.0
 author: Shila Shahparnia
 */
 @import "partial/setting.css";
@@ -33,4 +33,6 @@ author: Shila Shahparnia
 @import "partial/IncredibleSlider.css";
 @import "partial/FinalSale.css";
 @import "partial/allIncredibles.css";
+@import "partial/register.css";
+
 

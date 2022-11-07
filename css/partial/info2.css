@@ -21,6 +21,7 @@ div.info2 > div.about > p {
 div.info2 > div.about > h3 {
   padding-top: 15px;
   padding-right: 10px;
+  font-size: 16px;
 }
 div.info2 > div.about >a{
   text-decoration: none;
@@ -35,7 +36,6 @@ div.info2>div.about>a>i.fa-chevron-left{
 }
 div.info2 > div.license {
   width: 400px;
-  background-color: transparent;
   margin-right: 450px;
   display: flex;
 }

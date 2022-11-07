@@ -7,6 +7,7 @@ div.allIncredibles{
 }
 div.allIncredibles>h2{
     padding-right: 30px;
+    font-size: 18px;
 }
 div.menuIncredible{
     width: 100%;
@@ -153,7 +154,7 @@ div.swiper-slide3>div.price{
 }
 div.swiper-slide3>div.price>div.rebaja{
   width: 45px;
-  height: 25px;
+  height: 22px;
   background-color: #ef394e;
   margin-right: 20px;
   margin-top: 6px;
@@ -161,6 +162,8 @@ div.swiper-slide3>div.price>div.rebaja{
   text-align: center;
   color: white;
   font-weight: 900;
+  font-size: 15px;
+  line-height: 22px;
 }
 div.swiper-slide3>div.price>div.price1{
   width: 100px;
@@ -171,8 +174,9 @@ div.swiper-slide3>div.price>div.price1{
 }
 div.swiper-slide3>div.price>div.price1>span{
   font-weight: bold;
-  margin-right: 125px;
+  margin-right: 120px;
   margin-left: 5px;
+  font-size: 18px;
 }
 div.swiper-slide3>div.price>div.price1>img{
   width: var(--WToman);
@@ -183,7 +187,7 @@ div.swiper-slide3>div.price2{
   height: 30px;
   background-color: transparent;
   line-height: 30px;
-  padding-right: 130px;
+  padding-right: 120px;
   text-decoration: line-through;
   font-size: 15px;
   color: var(--ColorFill);

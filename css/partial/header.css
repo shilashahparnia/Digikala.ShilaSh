@@ -11,12 +11,10 @@ div.header2 {
   height: 60px;
   display: flex;
   margin-bottom: 20px;
-  background-color: transparent;
 }
 div.header2 > div.right {
   width: 1260px;
   display: flex;
-  background-color: transparent;
 }
 div.header2 > div.right > a > img {
   width: 115px;
@@ -47,7 +45,6 @@ div.header2 > div.right > div.searchbox > img {
 div.header2 > div.right > div.searchbox > form.fill {
   width: 570px;
   height: inherit;
-  background-color: transparent;
 }
 div.header2 > div.right > div.searchbox > form.fill > input.write {
   width: 540px;

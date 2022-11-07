@@ -1,7 +1,6 @@
 div.FinalSale{
     width: 1430px;
-    height: 470px;
-    background-color: transparent;
+    height: 480px;
     margin: 0 auto;
     border: var(--BoxBorder);
     border-radius: var(--BorderRadius);
@@ -10,8 +9,10 @@ div.FinalSale{
 div.FinalSale>div.title{
     width: inherit;
     height: 40px;
-    background-color: transparent;
     margin-bottom: 5px;
+}
+div.FinalSale>div.title>h3{
+  font-size: 16px;
 }
 div.FinalSale>div.title>i.fa-clock{
     font-size: 25px;
@@ -25,21 +26,19 @@ div.FinalSale>div.title>h3{
 }
 div.FinalSale>div.sliderBox{
     width: 1425px;
-    height: calc(470px - 80px);
+    height: calc(470px - 70px);
     background-color:  rgb(237, 239, 244);
     margin-top: 30px;
 }
 div.swiper-slide>div.price{
     width: inherit;
     height: 40px;
-    background-color: transparent;
     display: flex;
     margin-bottom: 5px;
   }
   div.swiper-slide>div.price>div.price3{
     width: 100px;
     width: inherit;
-    background-color: transparent;
     display: flex;
     padding-top: 8px;
     text-align: left;
@@ -48,6 +47,7 @@ div.swiper-slide>div.price{
     font-weight: bold;
     margin-right: 75px;
     margin-left: 5px;
+    font-size: 18px;
   }
   div.swiper-slide>div.price>div.price3>img{
     width: var(--WToman);
@@ -56,7 +56,6 @@ div.swiper-slide>div.price{
   div.swiper-slide>div.price4{
     width: inherit;
     height: 30px;
-    background-color: transparent;
     text-align: center;
     line-height: 30px;
     text-decoration: line-through;
@@ -64,5 +63,6 @@ div.swiper-slide>div.price{
     color: var(--ColorFill);
     padding-left: 5px;
     margin-bottom: 5px;
+    margin-right: 5px;
   }
  
