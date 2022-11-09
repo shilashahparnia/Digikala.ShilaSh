@@ -1,7 +1,6 @@
 div.allIncredibles{
     width: 100%;
     height: auto;
-    background-color: transparent;
     margin-top: 50px;
     margin-bottom: 20px;
 }
@@ -12,7 +11,6 @@ div.allIncredibles>h2{
 div.menuIncredible{
     width: 100%;
     height: 40px;
-    background-color: transparent;
     line-height: 40px;
     margin-bottom: 20px;
 }
@@ -36,7 +34,6 @@ div.menuIncredible>a.red{
 div.allIncredibleBox{
     width: 100%;
     height: 125vh;
-    background-color: transparent;
     display: flex;
 }
   .swiper-slide3 {
@@ -64,7 +61,6 @@ div.allIncredibleBox{
   div.swiper-slide3>div.title{
     width: 100%;
     height: 30px;
-    background-color: transparent;
     text-align: right;
     display: block;
     margin-bottom: 10px;
@@ -79,7 +75,6 @@ div.allIncredibleBox{
   div.swiper-slide3>div.image{
     width: inherit;
     height: 240px;
-    background-color: transparent;
     margin-bottom: 30px;
     display: block;
   }
@@ -96,24 +91,21 @@ div.allIncredibleBox{
   div.swiper-slide3>div.details{
     width: 100%;
     height: 50px;
-    background-color: transparent;
     margin-bottom: 5px;
 }
 div.swiper-slide3>div.details>h5{
     text-align: right;
-    padding-right: 20px;
+    padding-right: 15px;
 }
 div.swiper-slide3>div.available{
     width: 100%;
     height: 30px;
     display: flex;
-    background-color: transparent;
     margin-bottom: 10px;
 }
 div.swiper-slide3>div.available>div.gift{
   width: 70%;
   height: inherit;
-  background-color: transparent;
   margin-left: 10px;
   display: flex;
 }
@@ -122,18 +114,19 @@ div.swiper-slide3>div.available>div.gift>img{
   width: var(--WidthIcon);
   height: var(--HeightIcon);
   margin-right: 10px;
+  margin-top: 5px;
   filter: var(--IconPurple);
 }
 div.swiper-slide3>div.available>div.gift>p,div.swiper-slide3>div.available>div.star>p{
     color: var(--ColorFill);
     font-size: 15px;
-    margin-right: 5px;
     margin-top: 3px;
+    text-align: right;
+    padding-right: 5px;
 }
 div.swiper-slide3>div.available>div.star{
   width: 40%;
   height: inherit;
-  background-color: transparent;
   display: flex;
 }
 div.swiper-slide3>div.available>div.star>p{
@@ -143,20 +136,21 @@ div.swiper-slide3>div.available>div.star>p{
 }
 div.swiper-slide3>div.available>div.star>i.fa-star{
   padding-top: 5px;
-  margin-right: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
   color: #F9BC00;
+  margin-top: 5px;
 }
 div.swiper-slide3>div.price{
   width: 100%;
   height: 40px;
-  background-color: transparent;
   display: flex;
 }
 div.swiper-slide3>div.price>div.rebaja{
   width: 45px;
   height: 22px;
   background-color: #ef394e;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-top: 6px;
   border-radius: 10px;
   text-align: center;
@@ -168,7 +162,6 @@ div.swiper-slide3>div.price>div.rebaja{
 div.swiper-slide3>div.price>div.price1{
   width: 100px;
   width: inherit;
-  background-color: transparent;
   display: flex;
   padding-top: 8px;
 }
@@ -181,13 +174,13 @@ div.swiper-slide3>div.price>div.price1>span{
 div.swiper-slide3>div.price>div.price1>img{
   width: var(--WToman);
   height: var( --HToman);
+  margin-top: 5px;
 }
 div.swiper-slide3>div.price2{
   width: 100%;
   height: 30px;
-  background-color: transparent;
   line-height: 30px;
-  padding-right: 120px;
+  padding-right: 100px;
   text-decoration: line-through;
   font-size: 15px;
   color: var(--ColorFill);
@@ -196,7 +189,6 @@ div.swiper-slide3>div.price2{
 div.swiper-slide3>div.time{
   width: 100%;
   height: 30px;
-  background-color: transparent;
   text-align: right;
 }
 div.swiper-slide3>div.time>span{
