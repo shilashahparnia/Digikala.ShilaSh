@@ -75,6 +75,7 @@ div.SelectedPros {
     background-color: #ef394e;
     margin-right: 5px;
     margin-left: 60px;
+    margin-top: 5px;
     display: flex;
     border-radius: 10px;
     color: white;
@@ -94,6 +95,7 @@ div.SelectedPros {
     width: var(--WToman);
     height: var(--HToman);
     margin-right: 5px;
+    margin-top: 6px;
   }
   div.SelectedPros>div.BoxGrid>div.grid-container>div.grid-item>div.Firstp{
     width: inherit;

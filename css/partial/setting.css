@@ -37,6 +37,13 @@
     src: url(./fonts/faSh/yekan.woff);
     src: url(./fonts/faSh/yekan.woff2);
   }
+  @font-face{
+    font-family: ShilaContact;
+    src: url(./fonts/enSh2/Acme-Regular.eot);
+    src: url(./fonts/enSh2/Acme-Regular.ttf);
+    src: url(./fonts/enSh2/Acme-Regular.woff);
+    src: url(./fonts/enSh2/Acme-Regular.woff2);
+  }
   div>hr{
     margin: 20px 0;
   }

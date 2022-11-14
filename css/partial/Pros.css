@@ -1,6 +1,6 @@
 div.products2{
     width: 1330px;
-    height: 450px;
+    height: 460px;
     margin: 0 auto;
     border-radius: var(--BorderRadius);
     display: flex;
@@ -31,11 +31,12 @@ div.products2{
   }
   div.products2>div.kala2>div.SliderBox{
     width: 100%;
-    height: calc(100% - 110px);
+    height: calc(100% - 130px);
     margin-top: 5px;
   }
   div.swiper-slide2>a{
     text-decoration: none;
+    margin-top: 10px;
   }
   div.swiper-slide2>a>img{
     width: 140px;

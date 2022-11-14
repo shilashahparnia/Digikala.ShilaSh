@@ -88,7 +88,7 @@ div.swiper-slide>div.available>span{
     height: 22px;
     background-color: #ef394e;
     margin-right: 20px;
-    margin-top: 6px;
+    margin-top: 10px;
     border-radius: 10px;
     text-align: center;
     color: white;
@@ -100,7 +100,7 @@ div.swiper-slide>div.available>span{
     width: 100px;
     width: inherit;
     display: flex;
-    padding-top: 8px;
+    padding-top: 5px;
   }
   div.swiper-slide>div.price>div.price1>span{
     font-weight: bold;
@@ -111,6 +111,7 @@ div.swiper-slide>div.available>span{
   div.swiper-slide>div.price>div.price1>img{
     width: var(--WToman);
     height: var( --HToman);
+    margin-top: 5px;
   }
   div.swiper-slide>div.price2{
     width: inherit;

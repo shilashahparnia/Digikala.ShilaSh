@@ -151,7 +151,7 @@ div.swiper-slide3>div.price>div.rebaja{
   height: 22px;
   background-color: #ef394e;
   margin-right: 10px;
-  margin-top: 6px;
+  margin-top: 10px;
   border-radius: 10px;
   text-align: center;
   color: white;
@@ -163,7 +163,7 @@ div.swiper-slide3>div.price>div.price1{
   width: 100px;
   width: inherit;
   display: flex;
-  padding-top: 8px;
+  padding-top: 5px;
 }
 div.swiper-slide3>div.price>div.price1>span{
   font-weight: bold;

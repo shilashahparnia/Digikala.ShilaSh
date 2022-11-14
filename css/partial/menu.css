@@ -1,31 +1,26 @@
 div.menu{
     width: 100%;
     height: 40px;
-    background-color: transparent;
   }
   div.menu>div.list{
     width: 1250px;
     height: inherit;
-    background-color: transparent;
     display: inline-block;
   }
   div.menu>div.list>nav{
     width: inherit;
     height: inherit;
-    background-color: transparent;
   }
   div.menu>div.list>nav>ul{
     width: inherit;
     height: inherit;
     list-style: none;
-    background-color: transparent;
     padding: 0 10px;
   }
   div.menu>div.list>nav>ul>li{
     width: auto;
     height: inherit;
     display: inline-block;
-    background-color: transparent;
     position: relative;
     transition: 300ms;
 }
@@ -35,7 +30,6 @@ div.menu>div.list>nav>ul>li:hover{
   div.menu>div.list>nav>ul>li>div.logo,div.menu>div.city>div.logo{
     width: 25px;
     height: inherit;
-    background-color: transparent;
     display: inline-block;
   }
   div.menu>div.list>nav>ul>li>div.logo>img,div.menu>div.city>div.logo>img{
@@ -50,7 +44,6 @@ div.menu>div.list>nav>ul>li:hover{
   div.menu>div.list>nav>ul>li>div.text{
     width: inherit;
     height: inherit;
-    background-color: transparent;
     display: inline-block;
     padding-left: 20px;
   }
@@ -70,13 +63,12 @@ div.menu>div.list>nav>ul>li:hover{
   }
   div.menu>div.list>nav>ul>li>div.text>a.bold{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     color: black;
   }
   div.menu>div.city{
     width: 200px;
     height: inherit;
-    background-color: transparent;
     display: inline-block;
     margin-right: 10px;
   }
@@ -84,7 +76,6 @@ div.menu>div.list>nav>ul>li:hover{
     width: 150px;
     height: inherit;
     display: inline-block;
-    background-color: transparent;
     margin-right: 5px;
   }
   div.menu>div.city>div.text>a{
@@ -110,12 +101,10 @@ div.menu>div.list>nav>ul>li:hover{
   div.menu>div.list>nav>ul>li>div.submenu>div.right{
     width: 17%;
     height: inherit;
-    background-color: transparent;
   }
   div.menu>div.list>nav>ul>li>div.submenu>div.right>ul{
     width: 100%;
     height: inherit;
-    background-color: transparent;
     list-style: none;
   }
   div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li{
@@ -132,7 +121,7 @@ div.menu>div.list>nav>ul>li:hover{
     color: black;
     font-weight: bold;
     padding-right: 20px;
-    font-size: 16px;
+    font-size: 15px;
     transition: 300ms;
 }
   div.menu>div.list>nav>ul>li>div.submenu>div.right>ul>li>a>img{

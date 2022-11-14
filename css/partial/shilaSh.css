@@ -1,0 +1,83 @@
+div.shilaFooter,div.shilaDesign{
+    width: 100;
+    height: 25px;
+    background-color: #3C4B6D;
+    text-align: center;
+    line-height: 25px;
+    direction: ltr;
+}
+div.shilaFooter>p{
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: ShilaContact;
+}
+div.shilaFooter>p>i.fa-copyright{
+    font-size: 16px;
+}
+div.shilaDesign>a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: ShilaContact;
+}
+div.shilaDesign{
+    position: relative;
+}
+div.shilaDesign>a>div.myInfo{
+    width: 440px;
+    height: 200px;
+    background-color: #3C4B6D;
+    border-top-right-radius: var(--BorderRadius);
+    border-top-left-radius: var(--BorderRadius);
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    left: 520px;
+    border: 3px solid #E0DEE0;
+    text-align: left;
+}
+div.shilaDesign>a:hover>div.myInfo{
+    display: flex;
+}
+div.shilaDesign>a>div.myInfo>div.image{
+    width: 40%;
+    height: inherit;
+    background-color: transparent;
+    margin-right: 15px;
+}
+div.shilaDesign>a>div.myInfo>div.image>img{
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+    border-radius: var(--BorderRadius);
+    margin: 22px;
+}
+div.shilaDesign>a>div.myInfo>div.contact{
+    width: 55%;
+    height: inherit;
+    background-color: transparent;
+}
+div.shilaDesign>a>div.myInfo>div.contact>p{
+    font-family: shilaEn;
+    font-size: 16px;
+    padding-top: 12px;
+    font-family: ShilaContact;
+}
+div.shilaDesign>a>div.myInfo>div.contact>p>i{
+    font-size: 20px;
+    padding-right: 10px;
+}
+div.shilaDesign>a>div.myInfo>div.contact>p>i.fa-envelope-square{
+    color: #FBBC04;
+}
+div.shilaDesign>a>div.myInfo>div.contact>p>i.fa-mobile-alt{
+    color: whitesmoke;
+}
+div.shilaDesign>a>div.myInfo>div.contact>p>i.fa-map-marker-alt{
+    color: #F60002;
+}
+div.shilaDesign>a>div.myInfo>div.contact>p>i.fa-telegram{
+    color: #33A8DA;
+}
+div.shilaDesign>a>div.myInfo>div.contact>p>i.fa-instagram{
+    color: #B000E7;
+}
