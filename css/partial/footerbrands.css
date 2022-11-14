@@ -1,6 +1,6 @@
 div.footerbrands {
     width: 100%;
-    height: 200px;
+    height: 140px;
     background-color: #F0F0F1;
   }
   div.footerbrands>a{
@@ -8,6 +8,7 @@ div.footerbrands {
   }
   div.footerbrands>a>img{
     width: 120px;
-    height: 100px;
-    margin-right: 50px;
+    height: 60px;
+    margin-top: 5px;
+    margin-right: 55px;
   }
